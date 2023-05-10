@@ -1,7 +1,7 @@
 import View from './view.js';
 // import {icons} from "../img/icons.svg";//how it was in parcel 1
 import icons from 'url:../../img/icons.svg'; // parcel 2
-import { Fraction } from 'fractional';
+import fracty from 'fracty'; //supposed to install a newer version of fractionsl
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
